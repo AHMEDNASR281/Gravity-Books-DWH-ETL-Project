@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>BookGravityProject</Database>
+    <Server>desktop-532gcgk\MOLAP</Server>
+    <ConnectionString>Data Source=desktop-532gcgk\MOLAP;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>TXwd787syZfkK7IxoGlboyLM6ps=25/01/2024 21:30:0525/01/2024 21:30:04</TimeStamp>
+        <ID>
+          <String>DWH_NEW_Gravity_DS</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>1SHYFOpJ5DM46H8F0LowgG4o3Eg=25/01/2024 21:59:3025/01/2024 21:59:29</TimeStamp>
+        <ID>
+          <String>DWH_NEW_Gravity_Dv1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Pth/07i0ZlPeQ+9miF64NxfyiOA=25/01/2024 23:00:0825/01/2024 23:00:07</TimeStamp>
+        <ID>
+          <String>DWH_NEW_Gravity_Dv2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NcH5hOJMntanMCIiapiEnHBydMc=25/01/2024 22:12:5525/01/2024 22:00:02</TimeStamp>
+        <ID>
+          <String>Dim Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>voafUnP/56siFWmsRNVmqJXBwI8=25/01/2024 22:15:2825/01/2024 22:00:02</TimeStamp>
+        <ID>
+          <String>Dim Book</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BXNk79LZ6Bpzti2y33UlQGr4+lI=25/01/2024 22:17:0725/01/2024 22:00:03</TimeStamp>
+        <ID>
+          <String>Fact Sales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ncK4OyMzI8VkGmcJL5cnvTl1kA8=25/01/2024 23:05:0525/01/2024 23:02:02</TimeStamp>
+        <ID>
+          <String>Dim Customer 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9HM7HfOUl5VHUIr0x2JHeMjRW/Q=25/01/2024 23:06:3025/01/2024 23:02:19</TimeStamp>
+        <ID>
+          <String>Dim Shipping</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7uv+zq1c/jm2QXYY3B6Uy9jf2vc=25/01/2024 23:02:2025/01/2024 23:02:19</TimeStamp>
+        <ID>
+          <String>Fact Sales 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>ejyLcesfX6+0ltTCA+wrKsUp2+c=25/01/2024 23:00:2325/01/2024 22:00:02JNCQsLNDvGp0z3xZJcLKuAVKcb8=25/01/2024 22:00:0325/01/2024 22:00:02</TimeStamp>
+        <ID>
+          <String>Book_Customer_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>pKWDsCHDVgiOdy7XKumtkS45DPk=25/01/2024 23:13:5625/01/2024 23:02:02OpfXbiIW5KhV/evzup2SPv+HKdM=25/01/2024 23:13:5725/01/2024 23:02:02</TimeStamp>
+        <ID>
+          <String>Customer_cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>/bu+I0lrxz6N8+sQsftNHPTbtzY=25/01/2024 21:26:4725/01/2024 21:26:42</TimeStamp>
+      <ID>
+        <String>BookGravityProject</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-01-25T21:14:18.44Z</LastDeployed>
+</DeploymentSnapshot>

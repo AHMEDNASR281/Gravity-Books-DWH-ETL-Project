@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "DWH_GRAVITY_BOOK", "DWH_GRAVITY_BOOK\DWH_GRAVITY_BOOK.dtproj", "{266C53CA-8691-4975-81BF-8775973156E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{266C53CA-8691-4975-81BF-8775973156E4}.Development|Default.ActiveCfg = Development
+		{266C53CA-8691-4975-81BF-8775973156E4}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5BD0148-2960-4C11-92B6-16B0971F4D80}
+	EndGlobalSection
+EndGlobal

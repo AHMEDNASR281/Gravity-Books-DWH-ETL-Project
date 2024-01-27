@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "BookGravityProject", "BookGravityProject\BookGravityProject.dwproj", "{B1346E9B-0155-4E25-880A-B375F4C37870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1346E9B-0155-4E25-880A-B375F4C37870}.Development|Default.ActiveCfg = Development
+		{B1346E9B-0155-4E25-880A-B375F4C37870}.Development|Default.Build.0 = Development
+		{B1346E9B-0155-4E25-880A-B375F4C37870}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC879CBB-F666-4806-9CC0-49FD988C69BB}
+	EndGlobalSection
+EndGlobal
